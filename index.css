@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to left, slategray,whitesmoke);
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 3px 3px #000;
+}
+
+input {
+    color: black;
+}
+
+.container {
+    background-color: darkslategray;
+    margin-top: 100px;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 3px 3px #000;
+}
