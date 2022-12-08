@@ -25,3 +25,29 @@ input {
     border-radius: 10px;
     box-shadow: 3px 3px #000;
 }
+
+#multi-question-types {
+    margin: 15px 0;
+}
+
+.question-type {
+    font-size: 20px;
+    width: 40px;
+    color: black;
+}
+
+#maxNumber {
+    width: 60px;
+}
+
+#startGame {
+    margin-bottom: 15px;
+    color: black;
+}
+
+#leaderboard {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-shadow: 3px 3px #000;
+}

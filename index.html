@@ -10,21 +10,32 @@
     <script src="index.js"></script>
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h2>10 Sec Math Game</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>10 Sec Math Game</h2>
 
-                <h3 id="time-left">10</h3>
-                <p id="time-left-label">seconds left</p>
+                    <h3 id="time-left">10</h3>
+                    <p id="time-left-label">seconds left</p>
 
-                <h1 id="equation"></h1>
-                <input id="user-input" type="number" />
+                    <h1 id="equation"></h1>
+                    <input id="user-input" type="number" />
 
-                <h4>Score: <span id="score">0</span></h4>
+                    <h4>Score: <span id="score">0</span></h4>
 
+                    <div id="leaderboard-container">
+                        <ol id="leaderboard">
+                        </ol>
+                    </div>
+
+                    <div id="customAmountContainer">
+                        <h4>Max number: <input id="maxNumber" type="number" value="10" /></h4>
+                    </div>
+
+                    <button id="startGame">New game</button>
+
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
